@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #926239;
+    font-family: sans-serif;
+}   
+.header {
+    background-image: url("https://cdn-files.kwigacdn.com/cabinet-3427/nT3D1eufS2QU/image_1766573742423.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: transparent;
+    text-decoration: none;
+    border: 1px solid #926239;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #926239;
+    color: white;
+    transition: 0.3s;
+}
+p {
+    padding: 20px;
+}
+.p1 {
+    background-color: #926239;
+    color: white;
+}
+
+.p3 p {
+    display: inline-block;  
+    width: 33%;
+}
+.p3 p:nth-child(2n+1){
+    background-color: #926239;
+    color: white;
+}
