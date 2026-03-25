@@ -2,9 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #926239;
+}
+
+body {
     font-family: sans-serif;
-}   
+}
+
 .header {
     background-image: url("https://cdn-files.kwigacdn.com/cabinet-3427/nT3D1eufS2QU/image_1766573742423.jpg");
     background-size: cover;
@@ -21,6 +24,15 @@
     border: 1px solid #926239;
     border-radius: 5px;
     margin-top: 20px;
+    color: inherit;
+}
+
+.dark-text {
+    color: #926239;
+}
+.light-text {
+    background-color: #926239;
+    color: white;
 }
 
 .button:hover {
@@ -30,17 +42,11 @@
 }
 p {
     padding: 20px;
-}
-.p1 {
-    background-color: #926239;
-    color: white;
+    text-align: center;
+    line-height: 27.2px;
 }
 
-.p3 p {
+.about p {
     display: inline-block;  
     width: 33%;
-}
-.p3 p:nth-child(2n+1){
-    background-color: #926239;
-    color: white;
 }
