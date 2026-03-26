@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-    background-image: url("https://cdn-files.kwigacdn.com/cabinet-3427/nT3D1eufS2QU/image_1766573742423.jpg");
+    background-image: url("./assets/background.jpg");
     background-size: cover;
     background-position: center;
     height: 100vh;
