@@ -14,6 +14,7 @@ body {
     background-position: center;
     height: 100vh;
     text-align: center;
+    padding-top: 350px;
 }
 
 .button {
@@ -47,6 +48,6 @@ p {
 }
 
 .about p {
-    display: inline-block;  
+    display: inline-block;
     width: 33%;
 }
